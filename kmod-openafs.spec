@@ -1,5 +1,5 @@
 Name:		kmod-openafs
-Version:	1.6.17
+Version:	1.6.18
 Release:	1.SL68%{?dist}
 Summary:	Pull in OpenAFS kernel modules
 
@@ -26,6 +26,8 @@ Pull in kernel modules for the current SL release, and (maybe) the previous one.
 %files
 
 %changelog
+* Mon Jun 15 2016 Kevin M. Hill <kevinh@fnal.gov> = 1.6.18-1.SL68
+- Update to current afs version
 * Mon Jun 13 2016 Kevin M. Hill <kevinh@fnal.gov> = 1.6.17-1.SL68
 - Updated for SL 6.8 
 * Mon Jul 27 2015 Pat Riehecky <riehecky@fnal.gov> - 1.6.13-1.SL67
