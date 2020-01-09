@@ -1,6 +1,6 @@
 Name:		kmod-openafs
-Version:	1.6.13
-Release:	1.SL67%{?dist}
+Version:	1.6.17
+Release:	1.SL68%{?dist}
 Summary:	Pull in OpenAFS kernel modules
 
 BuildArch:      noarch
@@ -8,7 +8,8 @@ BuildArch:      noarch
 Group:		System Environment/Kernel
 License:	GPL
 
-Requires:	kmod-openafs-573
+Requires:	kmod-openafs-642
+#Requires:	kmod-openafs-573
 #Requires:	kmod-openafs-504
 #Requires:	kmod-openafs-431
 #Requires:	kmod-openafs-358
@@ -25,6 +26,8 @@ Pull in kernel modules for the current SL release, and (maybe) the previous one.
 %files
 
 %changelog
+* Mon Jun 13 2016 Kevin M. Hill <kevinh@fnal.gov> = 1.6.17-1.SL68
+- Updated for SL 6.8 
 * Mon Jul 27 2015 Pat Riehecky <riehecky@fnal.gov> - 1.6.13-1.SL67
 - Updated for SL 6.7
 * Mon Oct 20 2014 Pat Riehecky <riehecky@fnal.gov> - 1.6.10-1.SL66
